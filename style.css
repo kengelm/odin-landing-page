@@ -127,8 +127,25 @@ img {
 
 .action {
     margin: 72px 24px 72px 120px;
+    padding: 36px 96px;
+    border-radius: 16px;
     width: 75%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text h3, .action-text p {
+    margin: 0;
+}
+
+.action-text h3 {
+    font-size: 24px;
+}
+
+.action-text p {
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .footer {
