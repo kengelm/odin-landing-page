@@ -80,11 +80,26 @@ img {
     align-items: center;
 }
 
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
+.box-wrapper {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .box {
     border: 4px solid #3882f6;
     border-radius: 16px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .main h2 {
@@ -99,12 +114,21 @@ img {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
+    padding: 120px 48px 72px 276px;
 }
 
 .quote-attribution {
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
+    text-align: right;
+    padding-right: 36px;
+}
+
+.action {
+    margin: 72px 24px 72px 120px;
+    width: 75%;
+    display: flex;
 }
 
 .footer {
